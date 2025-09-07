@@ -9,7 +9,6 @@ int main() {
 	scanf("%d",&m);
 	
 	int lcm=1,gcd=1;
-	int a=n,b=m;
 	
 	printf("Prime factors : ");
 	
