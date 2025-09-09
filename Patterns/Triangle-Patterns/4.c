@@ -15,8 +15,14 @@ int main(){
             printf("  ");
         }
         
-        for(int j=n+1-i;j>=1;j--){
-            printf("%d ",j);
+        // for(int j=n+1-i;j>=1;j--){
+        //     printf("%d ",j);
+        // }
+        
+        int temp=n+1-i;
+        for(int j=n;j>=i;j--){
+            printf("%d ",temp);
+            temp--;
         }
         printf("\n");
         
